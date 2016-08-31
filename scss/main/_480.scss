@@ -1,0 +1,35 @@
+
+#wrapper {
+	#cite {
+		#quote {
+			font-size: 20px;
+			text-align: center;
+			float: left; 
+			text-transform: uppercase;
+		}
+		#quote-author {
+			float: right;
+			font-size: 16px;
+			margin-top: 20px;
+		}
+	}
+	#content-cont {
+		#scroll-check {
+			#content {
+				#portfolio {
+					.project {
+						width: 80%;
+						padding-bottom: 50%;
+						margin: 0 auto 30px;
+						left: -3.5%;
+					}
+				}
+				#skills {
+					img {
+						margin: 20px -9px;
+					}
+				}
+			}
+		}
+	}
+}

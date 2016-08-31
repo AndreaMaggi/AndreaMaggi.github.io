@@ -1,0 +1,23 @@
+
+#wrapper {
+	#content-cont {
+		#scroll-check {
+			#content {
+				width: 1200px;
+				margin: 0 auto;
+				padding: 0 20px 150px;
+				#portfolio {
+					.project {
+						width: 24%;
+						padding-bottom: 16%;
+					}
+				}
+				#skills {
+					img {
+						margin: 20px 18px;
+					}
+				}
+			}
+		}
+	}
+}

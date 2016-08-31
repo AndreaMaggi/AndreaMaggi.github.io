@@ -1,0 +1,38 @@
+
+// CSS RESET
+@import "main/reset";
+
+// IMAGE FONT
+@import "main/iconfont";
+
+// LAYOUT
+
+// Page level layout styles
+@import "main/page";
+
+//  MEDIA QUERIES 	
+
+// 480px
+@media screen and (min-width: 480px) {
+	@import "main/480";
+}
+
+// 641px
+@media screen and (min-width: 641px) {
+	@import "main/641";
+}
+
+// 1025px
+@media screen and (min-width: 1024px) {
+	@import "main/1024";
+}
+
+// 1366px
+@media screen and (min-width: 1366px) {
+	@import "main/1366"
+}
+
+// IE 10
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	@import "main/ie10";
+}

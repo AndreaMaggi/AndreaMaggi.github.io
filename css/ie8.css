@@ -1,0 +1,17 @@
+
+#main-nav ul li a:before {
+	margin-left: 10px;
+}
+#main-nav ul li a.icon-about-us:before {
+	margin-left: 11px;
+	margin-right: -1px;
+}
+#main-nav ul li a.icon-support:before {
+	margin-left: 9px;
+	margin-right: 2px;
+}
+#main-nav ul li a.icon-email:before {
+	margin-left: 12px;
+	margin-right: -2px;
+}
+

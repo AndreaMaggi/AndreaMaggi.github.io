@@ -1,0 +1,49 @@
+
+#wrapper {
+	#content-cont {
+		#scroll-check {
+			padding: 20px 0 0;
+			left: -5%;
+			#content {
+				float: none;
+				width: 1000px;
+				margin: 0 auto;
+				padding: 0 20px 150px;
+				clear: both;
+				overflow: auto;
+				#portfolio {
+					.project {
+						width: 32%;
+						padding-bottom: 20%;
+					}
+				}
+				#contacts {
+					#contact-form {
+						max-width: 82%;
+					}
+				}
+			}
+		}
+	}
+	#cite {
+		position: absolute;
+		width: 565px;
+		height: 100%;
+		top: 0;
+		right: 15%;
+		left: auto;
+		padding: 20% 0 0;
+		margin-left: 0;
+		#quote {
+			font-size: 30px;
+			text-align: center;
+			float: left; 
+			text-transform: uppercase;
+		}
+		#quote-author {
+			float: right;
+			font-size: 22px;
+			margin-top: 20px;
+		}
+	}
+}

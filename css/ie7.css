@@ -1,0 +1,66 @@
+
+.IE-Icons, #main-nav ul li a .IE-Icons {
+	font-size: 25px;
+}
+
+.icon-refresh .IE-Icons {
+	font-size: 20px;
+}
+
+#main-nav ul li a .IE-Icons {
+	float: left;
+	margin-left: 10px;
+}
+
+#main-nav .menu-toggle {
+	width: 30px;
+}
+
+#main-nav ul li a span:hover {
+	cursor: pointer;
+}
+
+#main-nav ul li a {
+	height: 25px;
+}
+
+#contacts #contact-form #required-fields {
+	margin-top: 10px;
+}
+
+#wrapper #content-cont #scroll-check {
+	overflow-x: hidden;
+}
+
+body #wrapper #content-cont #scroll-check #content #portfolio .project {
+	width: 260px;
+	height: 166px;
+	padding-bottom: 0;
+	margin-right: 10px;
+}
+
+body #wrapper #content-cont #scroll-check #content #portfolio .project > a, body #wrapper #content-cont #scroll-check #content #portfolio .project > a img, body #wrapper #content-cont #scroll-check #content #portfolio .project .details {
+	width: 260px;
+	height: 166px;
+}
+
+body #wrapper #content-cont #scroll-check #content #contacts #contact-form {
+	padding-bottom: 100px;
+}
+
+body #wrapper #content-cont #scroll-check #content #contacts #contact-form #name-block, body #wrapper #content-cont #scroll-check #content #contacts #contact-form #email-block {
+	width: 44.5%;
+}
+
+body #wrapper #content-cont #scroll-check #content #contacts #contact-form #recaptcha_widget {
+	margin-top: 25px;
+}
+
+body  #wrapper #content-cont #scroll-check #content #contacts #contact-form #captcha-status, body #wrapper #content-cont #scroll-check #content #contacts #contact-form #result #loading-form, body #wrapper #content-cont #scroll-check #content #contacts #contact-form #result #success-form, body #wrapper #content-cont #scroll-check #content #contacts #contact-form #result #error-form {
+	left: 0;
+}
+
+body #wrapper #content-cont #scroll-check #content #contacts #contact-form #result #loading-form img {
+	left: auto;
+	margin-left: 0;
+}

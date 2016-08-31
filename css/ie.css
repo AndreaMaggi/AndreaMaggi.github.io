@@ -1,0 +1,26 @@
+
+body #contacts #contact-form {
+	padding: 10px 0 0;
+}
+
+body #main-nav ul {
+	padding-top: 35px; 
+}
+
+body #wrapper #content-cont #scroll-check {
+	left: auto;
+}
+
+#content-cont {
+	display: none;
+}
+
+body #wrapper #content-cont #scroll-check #content #portfolio .project .details {
+	left: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+	body #wrapper #content-cont #scroll-check #content {
+		padding-right: 100px;
+	}
+}

@@ -1,0 +1,52 @@
+@font-face {
+	font-family: 'portfolio';
+	src:url('http://d2lhauywih9yae.cloudfront.net/fonts/portfolio.eot?3r8zja');
+	src:url('http://d2lhauywih9yae.cloudfront.net/fonts/portfolio.eot?#iefix3r8zja') format('embedded-opentype'),
+		url('http://d2lhauywih9yae.cloudfront.net/fonts/portfolio.woff?3r8zja') format('woff'),
+		url('http://d2lhauywih9yae.cloudfront.net/fonts/portfolio.ttf?3r8zja') format('truetype'),
+		url('http://d2lhauywih9yae.cloudfront.net/fonts/portfolio.svg?3r8zja#portfolio') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.icon {
+	font-family: 'portfolio';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-refresh:before {
+	content: "\f021";
+}
+.icon-portfolio:before {
+	content: "\e15c";
+}
+.icon-home:before {
+	content: "\e604";
+}
+.icon-contacts:before {
+	content: "\e603";
+}
+.icon-about-me:before {
+	content: "\e605";
+}
+.icon-skills:before {
+	content: "\e606";
+}
+.icon-success:before {
+	content: "\e600";
+}
+.icon-error-close:before {
+	content: "\e60a";
+}
+.icon-linkedin:before {
+	content: "\e60b";
+}

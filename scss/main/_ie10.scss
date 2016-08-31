@@ -1,0 +1,38 @@
+
+nav#main-nav {
+	ul {
+		li {
+			a {
+				span {
+					padding: 10px;
+					&.icon-home {
+						padding: 10px 11px;
+					}
+					&.icon-skills {
+						padding: 11px 10px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 641px) {
+	nav#main-nav {
+		ul {
+			li {
+				a {
+					span {
+					padding: 12px;
+						&.icon-home {
+							padding: 11px;
+						}
+						&.icon-skills {
+							padding: 13px 10px;
+						}
+					}
+				}
+			}
+		}
+	}
+}

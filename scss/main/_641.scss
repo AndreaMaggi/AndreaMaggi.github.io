@@ -1,0 +1,104 @@
+
+#main-nav {
+	ul {
+		li {
+			margin:5px 0;
+		}
+	}
+}
+
+#wrapper {
+	#content-cont {
+		#scroll-check {
+			padding: 20px 0 0 20px;
+			#content {
+				padding: 0 10% 150px 0;
+				#portfolio, #skills, #contacts {
+					float: left;
+				}
+				#portfolio {
+					.project {
+						float: left;
+						width: 48%;
+						padding-bottom: 29%;
+						margin: 0 1% 30px 0;
+						left: auto;
+						a {
+							float: left;
+							img {
+								float: left;
+							}
+						}
+						.details {
+							float: left;
+						}
+					}
+				}
+				#skills {
+					img {
+						margin: 20px 5px;
+					}
+				} 
+				#contacts {
+					#contact-form {
+						margin-top: -20px;
+						padding: 0 0 60px;
+						margin: 0 auto;
+						width: 100%;
+						max-width: 100%;
+						overflow: hidden;
+						#name-block {
+							width: 45%;
+							float: left;
+							margin-right: 10%;
+						}
+						#email-block, #message-block {
+							width: 45%;
+							float: left;
+						}
+						#recaptcha_widget {
+							width: 45%;
+							float: right;
+							margin: -125px 0 0;
+						}
+						#required-fields {
+							margin-top: 0;
+							top: 46px;
+							clear: both;
+						}
+						#captcha-status {
+							top: 250px;
+						}
+						#submit-cont { 
+							top: 30px;
+						}
+					}
+				}
+			}
+		}
+	}
+	#cite {
+		position: absolute;
+		width: 100%;
+		max-width: 570px;
+		height: 100%;
+		left: 50%;
+		right: auto;
+		margin-left: -285px;
+		padding: 0;
+		#quote {
+			font-size: 30px;
+			text-align: center;
+			float: left; 
+			text-transform: uppercase;
+		}
+		#quote-author {
+			float: right;
+			font-size: 22px;
+			margin-top: 20px;
+		}
+		.next-link {
+			top: 55px;
+		}
+	}
+}
